@@ -73,7 +73,7 @@ router.get('/edit/:id', (req, res, next) => {
       }else{
           //show the edit view
           res.render('books/details', {
-              title: 'Edit Contact', 
+              title: 'Edit Book', 
               books: bookToEdit})
       }
    });
